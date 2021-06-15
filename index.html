@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Republic of Rome</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Republic of Rome</title>
 
-<!-- Custom styling -->
-<style>
-    .bg-custom {background-color:#f9e8ba;}
-    .signature {font-style: italic;}
-    .indexglossary {padding-left: 2.5em;text-indent:-1.5em;}
-    a, a:hover, a:link, a:visited, a:active {color:#bd0000;}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+ 
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css" />
 
 </head>
 
 <body>
 
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="btn-back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
 	<header>
+        <!--
 		<div class="collapse bg-dark" id="navbarHeader">
 			<div class="container-fluid">
 				<div class="row">
@@ -26,6 +33,7 @@
 						<h4 class="text-white">Salve Senator!</h4>
 						<p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
 					</div>
+
 					<div class="col-sm-4 offset-md-1 py-4">
 						<h4 class="text-white">Menu</h4>
 						<ul class="list-unstyled">
@@ -38,22 +46,29 @@
 			</div>
 		</div>
 		<div class="navbar navbar-dark bg-dark box-shadow">
-			<div class="container-fluid d-flex justify-content-between">
+			<div class="container-fluid d-flex  justify-content-between">
 				<a href="#" class="navbar-brand d-flex align-items-center">
-					<!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
-					<strong>Republic of Rome</strong>
+					<strong>Republic of Rome</strong> 
+                    <small class="text-right">(2nd Edition, Living Rules v1.06A)</small>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 			</div>
 		</div>
+    -->
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Republic of Rome - Second Edition, Living Rules v1.06A</a>
+     </nav>
+
 	</header>
 
 
 
 	<div class="container-fluid border bg-custom mb-3 shadow-sm">
-        <h5 class="pt-1">Second Edition, Living Rules v1.06A</h5>
+        <!--<h5 class="pt-1">Second Edition, Living Rules v1.06A</h5>-->
 
 		<div class="row pt-1 pb-2">
 			<div class="col-sm-4">
@@ -161,29 +176,41 @@
             </div>
 
 
-            <div class="col-md-12 pb-2"><h5><a id="Rule_1.02">1.02 GAME COMPONENTS</a></h5>
-            <!--
-            17 Corrupt / Major
-             (Front) (Back) 15 Prior Consul 36 Mortality
-            5 Faction 1 Unrest
-            40 Knight Dominance Front / Back 3 Captive
-            Number
-            90 Positive / 52 Negative 3 State Revenue
-            6 Faction 6 Land Bill
-            Talents
-            80 x 1T 44 x 5T 24 x 10T 10 x 50T 8 x 100T
+            <div class="col-md-12 pb-4"><h5><a id="Rule_1.02">1.02 GAME COMPONENTS</a></h5>
 
-            1 Game Board 160 Scenario Cards
-            18 Event Cards
-            1 Summary Sheet 15 Provinces
-            6 Solitaire/Two Player 6 Faction Treasury
-            Reference Cards boxes/Vote Counters 3 Dice
-            Markers/Chits
-            25 Legion (Front)/Veteran (Back) 25 Fleet
-            11 Major Office
-            3 Naval Victory 2 Manpower Shortage 2 Drought
-            1 Primary Rebel 8 Rebel 12 Priest 25 Allegiance4
-            -->
+                <div>1 Game Board</div>
+                <div>160 Scenario Cards</div>
+                <div>18 Event Cards</div>
+                <div>1 Summary Sheet</div> 
+                <div>15 Provinces</div>
+                <div>6 Solitaire/Two Player</div> 
+                <div>6 Faction Treasury</div>
+                <div>Reference Cards boxes/Vote Counters</div> 
+                <div>3 Dice</div>
+
+                <div class="pt-2"><strong>Markers/Chits:</strong></div>
+                <div>25 Legion (Front)/Veteran (Back)</div> 
+                <div>25 Fleet</div>
+                <div>11 Major Office</div>
+                <div>3 Naval Victory</div>
+                <div>2 Manpower Shortage</div>
+                <div>2 Drought</div>
+                <div>1 Primary Rebel</div> 
+                <div>8 Rebel</div>
+                <div>12 Priest</div>
+                <div>25 Allegiance</div>
+                <div>17 Corrupt / Major (Front) (Back)</div>
+                <div>15 Prior Consul</div>
+                <div>36 Mortality</div>
+                <div>5 Faction Dominance</div> 
+                <div>1 Unrest</div>
+                <div>40 Knight Dominance Front / Back</div> 
+                <div>3 Captive</div>
+                <div>Number: 90 Positive / 52 Negative</div> 
+                <div>3 State Revenue</div>
+                <div>6 Faction</div>
+                <div>6 Land Bill</div>
+                <div>Talents: 80 x 1T 44 x 5T 24 x 10T 10 x 50T 8 x 100T</div>
             </div>
 
             
@@ -5653,7 +5680,7 @@
     </div>
 
 
-    <div class="container-fluid border bg-custom mb-3 shadow-sm">
+    <div class="container-fluid border bg-custom shadow-sm">
 		<div class="row pt-1 pb-2">
 
             <div class="col-md-12 pb-2"><h4>CREDITS</h4></div>
@@ -5688,6 +5715,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 
