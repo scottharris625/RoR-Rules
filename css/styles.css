@@ -1,7 +1,11 @@
+a, a:hover, a:link, a:visited, a:active {color:#bd0000;}
+
 .bg-custom {background-color:#FEF9E7;}
 .signature {font-style: italic;}
 .indexglossary {padding-left: 2.5em;text-indent:-1.5em;}
-a, a:hover, a:link, a:visited, a:active {color:#bd0000;}
+.text-living{color:goldenrod;}
+.text-advanced{color:royalblue;}
+.text-example{color:slategray;}
 
 #btn-back-to-top {
   display: none; /* Hidden by default */
@@ -22,3 +26,4 @@ a, a:hover, a:link, a:visited, a:active {color:#bd0000;}
 #btn-back-to-top:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
