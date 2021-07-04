@@ -6,6 +6,7 @@ a, a:hover, a:link, a:visited, a:active {color:#bd0000;}
 .text-living{color:rgb(194, 103, 38);}
 .text-advanced{color:royalblue;}
 .text-example{color:slategray; font-style: italic;}
+.text-green{color:limegreen;}
 
 #btn-back-to-top {
   display: none; /* Hidden by default */
