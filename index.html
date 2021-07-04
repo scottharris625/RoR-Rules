@@ -809,7 +809,12 @@
             
             <div class="col-md-12 pb-2">
                 <p><strong><a id="Rule_1.07.21">1.07.21 EVENTS:</a></strong> If the player rolls a 7 as his Initiative roll, he does 
-                not draw a card but instead must roll 3d6 on the Random Events Table 
+                not draw a card but instead must roll 3d6 on the                 
+                
+                <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#Table-RandomEvents">
+                    Random Events Table
+                </button>
+
                 and place the corresponding light blue Event card from the table in 
                 play. If that Event card is already in play, it is flipped to its dark blue 
                 side. If the Event card is already flipped to its dark blue side, there 
@@ -4027,7 +4032,13 @@
                     Players may play just two decks (Early to Middle or Middle to Late) 
                     or opt for the complete extended Game (Early to Middle to Late). Play 
                     proceeds normally after noting the increased Legion Loyalty numbers 
-                    for Revolts (<a href="#Rule_1.11.31">1.11.31</a>) and the new Random Events Table column in use 
+                    for Revolts (<a href="#Rule_1.11.31">1.11.31</a>) and the new 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#Table-RandomEvents">
+                        Random Events Table
+                    </button>
+                    
+                    column in use 
                     for the new period. The Game is considered to be in the Middle or 
                     Late period the moment a card is drawn from that deck (the drawing 
                     player must announce he drew from the new period). <span class="text-green">Setup should be 
@@ -5890,6 +5901,144 @@
         </div>
     </div>
 
+  <!-- Button to Open the Random Events Modal -->
+  <!--
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Table-RandomEvents">
+    Random Events Table
+  </button>
+  -->
+
+  <!-- The Random Events Table Modal -->
+  <div class="modal fade" id="Table-RandomEvents">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Random Events Table</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>3d6</th>
+                    <th>Early Republic</th>
+                    <th>Middle Republic</th>
+                    <th>Late Republic</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>Mob Violence</td>
+                        <td>Pretender Emerges</td>
+                        <td>Epidemic</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Natural Disaster</td>
+                        <td>Storm at Sea</td>
+                        <td>Storm at Sea</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ally Deserts</td>
+                        <td>Ally Deserts</td>
+                        <td>Ally Deserts</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Evil Omens</td>
+                        <td>Natural Disaster</td>
+                        <td>Pretender Emerges</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Refuge</td>
+                        <td>Mob Violence</td>
+                        <td>Natural Disaster</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Epidemic</td>
+                        <td>Internal Disorder</td>
+                        <td>Mob Violence</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Drought</td>
+                        <td>Drought</td>
+                        <td>Drought</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Evil Omens</td>
+                        <td>Evil Omens</td>
+                        <td>Evil Omens</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Storm at Sea</td>
+                        <td>Epidemic</td>
+                        <td>Internal Disorder</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Manpower Shortage</td>
+                        <td>Manpower Shortage</td>
+                        <td>Barbarian Raids</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Allied Enthusiasm</td>
+                        <td>Barbarian Raids</td>
+                        <td>Manpower Shortage</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>New Alliance</td>
+                        <td>Allied Enthusiasm</td>
+                        <td>Trial of Verres</td>
+                    </tr>
+                    <tr>
+                <td>15</td>
+                        <td>Rhodian Alliance</td>
+                        <td>New Alliance</td>
+                        <td>Allied Enthusiasm</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Enemy Ally Deserts</td>
+                        <td>Enemy Ally Deserts</td>
+                        <td>Enemy Ally Deserts</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Enemy Leader Dies</td>
+                        <td>Trial of Verres</td>
+                        <td>Enemy Leader Dies</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Trial of Verres</td>
+                        <td>Rhodian Alliance</td>
+                        <td>New Alliance</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+        
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+    </div>
+    
+  </div>
+</div>
+</div>
 
 	<!-- Bootstrap core JavaScript
 	================================================== -->
