@@ -791,8 +791,13 @@
             
             <div class="col-md-12 pb-2">
                 <p><strong><a id="Rule_1.07.2">1.07.2 INITIATIVE SEQUENCE:</a></strong> The HRAO player (<a href="#Rule_1.09.11">1.09.11</a>) must 
-                roll 2d6 for Initiative. If he rolls a 7, he must roll 3d6 on the Random 
-                Events Table to determine which Event card he has drawn (<a href="#Rule_1.07.21">1.07.21</a>). 
+                roll 2d6 for Initiative. If he rolls a 7, he must roll 3d6 on the 
+
+                <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-RandomEvents">
+                    Random Events Table
+                </button>
+                
+                to determine which Event card he has drawn (<a href="#Rule_1.07.21">1.07.21</a>). 
                 Otherwise, he draws a card from the Forum deck. If the Forum deck is 
                 empty and will not be replaced with another deck (Extended Scenario 
                 <a href="#Rule_3.04">3.04</a>), a player must still roll but does not get to draw a card. He may 
@@ -811,7 +816,7 @@
                 <p><strong><a id="Rule_1.07.21">1.07.21 EVENTS:</a></strong> If the player rolls a 7 as his Initiative roll, he does 
                 not draw a card but instead must roll 3d6 on the                 
                 
-                <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#Table-RandomEvents">
+                <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-RandomEvents">
                     Random Events Table
                 </button>
 
@@ -4034,7 +4039,7 @@
                     proceeds normally after noting the increased Legion Loyalty numbers 
                     for Revolts (<a href="#Rule_1.11.31">1.11.31</a>) and the new 
                     
-                    <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#Table-RandomEvents">
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-RandomEvents">
                         Random Events Table
                     </button>
                     
@@ -5903,7 +5908,7 @@
 
   <!-- Button to Open the Random Events Modal -->
   <!--
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Table-RandomEvents">
+  <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-RandomEvents">
     Random Events Table
   </button>
   -->
@@ -6029,16 +6034,50 @@
                     </tr>
                 </tbody>
             </table>
-    </div>
+        </div>
         
-    <!-- Modal footer -->
-    <div class="modal-footer">
-      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
     </div>
-    
-  </div>
 </div>
 </div>
+
+ 
+    <!-- Button to Open the Random Events Modal -->
+<!--
+    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-XYZ">
+        XYZ Table
+    </button>
+-->
+  
+
+    <!-- The Random Events Table Modal -->
+    <div class="modal fade" id="Table-XYZ">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+      
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">XYZ Table</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    XYZ
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 	<!-- Bootstrap core JavaScript
 	================================================== -->
