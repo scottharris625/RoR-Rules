@@ -398,15 +398,17 @@
                 Republic wherein lackluster “years” are skipped to keep the action 
                 constant. Each turn is composed of seven Phases.
                 </p>
-                <table>
-                    <tr><td>I.</td> <td>MORTALITY PHASE (<a href="#Rule_1.05">1.05</a>)</td></tr>
-                    <tr><td>II.</td> <td>REVENUE PHASE (<a href="#Rule_1.06">1.06</a>)</td></tr>
-                    <tr><td>III.</td> <td>FORUM PHASE (<a href="#Rule_1.07">1.07</a>)</td></tr>
-                    <tr><td>IV.</td> <td>POPULATION PHASE (<a href="#Rule_1.08">1.08</a>)</td></tr>
-                    <tr><td>V.</td> <td>SENATE PHASE (<a href="#Rule_1.09">1.09</a>)</td></tr>
-                    <tr><td>VI.</td> <td>COMBAT PHASE (<a href="#Rule_1.10">1.10</a>)</td></tr>
-                    <tr><td>VII.</td> <td>REVOLUTION PHASE (<a href="#Rule_1.11">1.11</a>)</td></tr>
-                </table>
+
+                <ol style="list-style-type: upper-roman;">
+                    <li>MORTALITY PHASE (<a href="#Rule_1.05">1.05</a>)</li>
+                    <li>REVENUE PHASE (<a href="#Rule_1.06">1.06</a>)</li>
+                    <li>FORUM PHASE (<a href="#Rule_1.07">1.07</a>)</li>
+                    <li>POPULATION PHASE (<a href="#Rule_1.08">1.08</a>)</li>
+                    <li>SENATE PHASE (<a href="#Rule_1.09">1.09</a>)</li>
+                    <li>COMBAT PHASE (<a href="#Rule_1.10">1.10</a>)</li>
+                    <li>REVOLUTION PHASE (<a href="#Rule_1.11">1.11</a>)</li>
+                </ol>
+
             </div>
             
             <div class="col-md-12 pb-2">
@@ -1501,20 +1503,20 @@
                 introduced again in the same Senate Phase without significant change.
                 </p>
                 <p>
-                <span class="text-example">EXAMPLES:
+                <span class="text-example">EXAMPLES:</span>
                 <ul>
-                <li>A proposal to assign Fabius 8 Legions fails. A subsequent 
+                <li><span class="text-example">A proposal to assign Fabius 8 Legions fails. A subsequent 
                 proposal to assign Fabius 7 Legions or Claudius 8 
-                Legions may be put forward.</li>
-                <li>A proposal to send Fabius to govern Hispania Citerior 
+                Legions may be put forward.</span></li>
+                <li><span class="text-example">A proposal to send Fabius to govern Hispania Citerior 
                 and Claudius to Sicilia might fail as a joint proposal but a 
                 subsequent separate proposal to send Fabius to 
-                Hispania Citerior is legal.</li>
-                <li>A proposal to nominate Fabius and Claudius as Consuls 
+                Hispania Citerior is legal.</span></li>
+                <li><span class="text-example">A proposal to nominate Fabius and Claudius as Consuls 
                 fails. A Subsequent proposal to nominate Claudius and 
                 Fabius as Consuls would be illegal (rewording the 
-                proposal is not enough).</li>
-                </ul></span>
+                proposal is not enough).</span></li>
+                </ul>
 
                 In contrast, Concessions (<a href="#Rule_1.09.61">1.09.61</a>) and Consul for Life 
                 nominations (<a href="#Rule_1.09.82">1.09.82</a>) can only be voted upon once per turn.
@@ -2500,8 +2502,13 @@
                     of his Army. From this he subtracts the Land Strength number of the 
                     War (the number next to the Swords icon), which may be modified 
                     by the presence of a Matching War (<a href="#Rule_1.07.332">1.07.332</a>) or Leader (<a href="#Rule_1.07.342">1.07.342</a>). To 
-                    this number is added 3d6, and the result is located on the Combat 
-                    Results Table to determine the outcome <span class="text-living">(see also <a href="#Rule_1.10.21">1.10.21</a> and <a href="#Rule_1.10.31">1.10.31</a>)</span>.                     
+                    this number is added 3d6, and the result is located on the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+                    
+                    to determine the outcome <span class="text-living">(see also <a href="#Rule_1.10.21">1.10.21</a> and <a href="#Rule_1.10.31">1.10.31</a>)</span>.                     
                 </p>
             </div>
             
@@ -2538,7 +2545,12 @@
                 <p><strong><a id="Rule_1.10.2">1.10.2 DEFEATS:</a></strong> A result of “Defeat” means the Roman Commander 
                     <span class="text-living">and his Master of Horse (if present) are</span> killed and <span class="text-living">their</span> Force 
                     returns the number of Legions and Fleets (if present for Fleet 
-                    Support or for a Naval Battle) indicated on the Combat Results Table 
+                    Support or for a Naval Battle) indicated on the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+
                     to the Force Pool. Surviving Forces remain on the War card until the 
                     next Senate Phase, when they may be recalled or reinforced. The 
                     Unrest Level is immediately increased by 2.                     
@@ -2548,8 +2560,13 @@
             <div class="col-md-12 pb-2">
                 <p><strong><a id="Rule_1.10.21">1.10.21 DISASTERS:</a></strong> Each War and Leader has a black Disaster 
                     number following a D on the right side of the card. If this number is 
-                    rolled prior to any modification while resolving combat, the Combat 
-                    Results Table is ignored, and the Battle is an automatic “Disaster”, 
+                    rolled prior to any modification while resolving combat, the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+                    
+                    is ignored, and the Battle is an automatic “Disaster”, 
                     causing loss of half (fractions rounded up) of all participating Roman 
                     forces. <span class="text-living">However, each Disaster number can only be applied once per 
                     turn per War.</span> Fleet and Legion losses are each halved and rounded 
@@ -2564,7 +2581,12 @@
                 <p><strong><a id="Rule_1.10.3">1.10.3 STALEMATES:</a></strong> A result of “Stalemate” means the War is 
                     undecided. The Roman Force loses the number of Legions and Fleets 
                     (if present for Fleet Support or for a Naval Battle) indicated on the 
-                    Combat Results Table to the Force Pool. Surviving Forces remain on 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+                    
+                    to the Force Pool. Surviving Forces remain on 
                     the War card until the next Senate Phase, when they may be recalled 
                     or reinforced. The Roman Commander remains in command as 
                     Proconsul unless <span class="text-living">he becomes a Secondary Rebel (<a href="#Rule_1.11.32">1.11.32</a>), is</span> recalled 
@@ -2577,7 +2599,13 @@
                 <p><strong><a id="Rule_1.10.31">1.10.31 STANDOFFS:</a></strong> Each War and Leader has one or two gray 
                     Standoff numbers following an “S” on the right side of the card. If 
                     these numbers are rolled prior to any modification while resolving 
-                    combat, the Combat Results Table is ignored, and the Battle is an 
+                    combat, the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+
+                    is ignored, and the Battle is an 
                     automatic Standoff, causing loss of one quarter (fractions rounded 
                     up) of all participating Roman Forces. <span class="text-living">However, each Standoff 
                     number can only be applied once per turn per War.</span> Fleet and Legion 
@@ -2593,7 +2621,13 @@
                     and eliminates the War. A Naval “Victory” also lowers the Unrest 
                     Level by 1 and results in a Naval Victory marker being placed on the 
                     War. The Roman Force loses the number of Legions and Fleets (if it 
-                    has them) indicated on the Combat Results Table and the surviving 
+                    has them) indicated on the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+                    
+                    and the surviving 
                     Forces remain on the Commander’s card, provided the Commander 
                     survives (<a href="#Rule_1.10.7">1.10.7</a>). In some cases one or more Provinces will be created 
                     and placed in the Forum. The victorious Commander increases both 
@@ -2611,8 +2645,13 @@
                     The Land Strength on the Gladiator Revolt card is 6, which is increased to 
                     11 because the appropriate Leader card, Spartacus, happens to be in play. 13 
                     minus 11 is 2. The player controlling Marius then rolls 3d6, rolling a 10, 
-                    which is added to the base of 2 for a final result of 12. A 12 on the Combat 
-                    Results Table is a “Stalemate” with a loss of 1 Legion and 1 Fleet. Marius 
+                    which is added to the base of 2 for a final result of 12. A 12 on the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+                    
+                    is a “Stalemate” with a loss of 1 Legion and 1 Fleet. Marius 
                     loses 1 Legion (he has no Fleets), and must draw 1 Mortality Chit to check 
                     for his own death (<a href="#Rule_1.10.7">1.10.7</a>). Had he had a Fleet to lose, he would have had to 
                     draw 2 Mortality Chits. The Gladiator Revolt may be fought again during 
@@ -2926,8 +2965,13 @@
                     of his Force). If both the Master of Horse and the Dictator were 
                     declared Rebels (<a href="#Rule_1.11.3">1.11.3</a>) the ex-Master of Horse (Secondary Rebel) 
                     may add his Military Rating to the ex-Dictator’s (Primary Rebel) 
-                    Military Rating. Any combat losses called for by the Combat Results 
-                    Table are applied to both armies, <span class="text-living">except, in any “Defeat” result, the 
+                    Military Rating. Any combat losses called for by the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>
+                    
+                    are applied to both armies, <span class="text-living">except, in any “Defeat” result, the 
                     Rebel Force suffers no losses</span>. Mortality Chits drawn for losses can 
                     affect either Commander, <span class="text-living">and</span> any Master of Horse and Rebel ex-Master of Horse.                                        
                 </p>
@@ -2944,7 +2988,11 @@
                     Legions are destroyed through combat losses; however, this cannot 
                     count as a Victory (for <span class="text-living">Popularity, Influence, and ability to declare 
                     himself in Revolt</span>) for the Senate Commander unless the losses were a 
-                    result of achieving a “Victory” on the Combat Results Table.                     
+                    result of achieving a “Victory” on the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+                        Combat Results Table
+                    </button>.                     
                 </p>
             </div>
             
@@ -3389,18 +3437,17 @@
                     ignored, and the player with the stronger Force is considered in Revolt 
                     instead. Determine the Force Strength for this purpose as follows:
                 </p>
-                <p>
-                    Primary Rebel’s Military rating
-                    +1 per Garrison Legion belonging to Rebel Governors 
-                    +1 per Provincial Army/Fleet belonging to Rebel 
-                    Governors
-                    +1 per successfully diced for Roman Fleet / Legion 
-                    [Victorious Commander only (<a href="#Rule_1.11.31">1.11.31</a>)]
-                    +2 per successfully diced for Veteran Legion [Victorious 
-                    Commander only (<a href="#Rule_1.11.31">1.11.31</a>)]
-                    +2 per Veteran Legion belonging to any Rebel Senator 
-                    (<a href="#Rule_2.03.21">2.03.21</a>) (at Rebel’s discretion).
-                </p>
+                
+                <div class="pl-5">Primary Rebel’s Military rating</div>
+                <div class="pl-5">+1 per Garrison Legion belonging to Rebel Governors</div>
+                <div class="pl-5">+1 per Provincial Army/Fleet belonging to Rebel Governors</div>
+                <div class="pl-5">+1 per successfully diced for Roman Fleet / Legion 
+                    [Victorious Commander only (<a href="#Rule_1.11.31">1.11.31</a>)]</div>
+                <div class="pl-5">+2 per successfully diced for Veteran Legion [Victorious 
+                    Commander only (<a href="#Rule_1.11.31">1.11.31</a>)]</div>
+                <div class="pl-5 pb-3">+2 per Veteran Legion belonging to any Rebel Senator 
+                    (<a href="#Rule_2.03.21">2.03.21</a>) (at Rebel’s discretion).</div>
+                
             </div>
             
             <div class="col-md-12 pb-2">
@@ -3578,22 +3625,22 @@
                     (<a href="#Rule_2.03.71">2.03.71</a>). When attacked at his rebel Province a Rebel Governor’s 
                     Land Strength is equal to the sum of his:
                 </p>
-                <p>
-                    Base Province Land Strength (<a href="#Rule_1.09.646">1.09.646</a>)
-                    +1 per Provincial Army (count half Strength if no Garrison 
-                    Legions are present)
-                    +1 per Garrison Legion 
-                    +2 per Veteran Legion
-                    + Military rating of Rebel Governor (<a href="#Rule_1.10.11">1.10.11</a>)
-                </p>
+                
+                <div class="pl-5">Base Province Land Strength (<a href="#Rule_1.09.646">1.09.646</a>)</div>
+                <div class="pl-5">+1 per Provincial Army (count half Strength if no Garrison 
+                Legions are present)</div>
+                <div class="pl-5">+1 per Garrison Legion</div>
+                <div class="pl-5">+2 per Veteran Legion</div>
+                <div class="pl-5 pb-3">+ Military rating of Rebel Governor (<a href="#Rule_1.10.11">1.10.11</a>)</div>
+            
                 <p>
                     Fleet Support might also be required to fight the Land Battle. The 
                     Rebel’s Fleet Support is equal to the sum of:
                 </p>
-                <p>
-                    Base Province Naval Strength 
-                    +1 per Provincial Fleets
-                </p>
+                
+                <div class="pl-5">Base Province Naval Strength</div>
+                <div class="pl-5 pb-3">+1 per Provincial Fleets</div>
+                
                 <p>
                     If the Rebel Governor’s Fleet Strength exceeds the Undeveloped Base 
                     Province Land Strength of the Province (even if it is Developed), a 
@@ -3604,11 +3651,11 @@
                     The Rebel Governor’s Fleet Strength is equal to the sum of the 
                     following:
                 </p>
-                <p>
-                    Base Province Naval Strength 
-                    +1 per Provincial Fleets
-                    + Military rating of Rebel Governor (<a href="#Rule_1.10.11">1.10.11</a>)
-                </p>
+                
+                <div class="pl-5">Base Province Naval Strength</div>
+                <div class="pl-5">+1 per Provincial Fleets</div>
+                <div class="pl-5 pb-3">+ Military rating of Rebel Governor (<a href="#Rule_1.10.11">1.10.11</a>)</div>
+                
                 <p>
                     <span class="text-example">EXAMPLE: Sardinia et Corsica is fully Developed and in Revolt. Its full 
                     complement of 1 Provincial Army and 5 Provincial Fleets added to its Base 
@@ -3734,7 +3781,12 @@
                 <p><strong><a id="Rule_2.05.3">2.05.3 TRIAL VOTES:</a></strong> The Prosecution (<a href="#Rule_1.09.41">1.09.41</a>) is carried out as 
                     normal. After the votes are announced the Advocate rolls 2d6, adding 
                     the Advocate’s Oratory while subtracting the Prosecutor’s Oratory. 
-                    This modified die roll is cross-referenced with the Trial Appeal Table 
+                    This modified die roll is cross-referenced with the 
+                    
+                    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-PopularAppeal">
+                        Trial Appeal Table
+                    </button>
+                    
                     to determine how many extra votes are added or subtracted on behalf 
                     of the Accused. The Trial must be conducted (unlike the Popular 
                     Appeal, which is still optional).
@@ -3892,7 +3944,7 @@
             <div class="col-md-12 pb-2">
                 <p><strong><a id="Rule_3.01.4">3.01.4 CARDS:</a></strong> Set up the Early Republic (white) deck as follows:
                 </p>
-                <ol>
+                <ol style="list-style-type:upper-alpha;">
                     <li>Start with the white-bordered cards.</li>
                     <li>Place the 1st Punic War card in the Inactive Wars section 
                         of the Forum.
@@ -3968,7 +4020,7 @@
             <div class="col-md-12 pb-2">
                 <p><strong><a id="Rule_3.02.2">3.02.2 CARDS:</a></strong>  Set up the Middle Republic (gray) deck as follows: 
                 </p>
-                <ol>
+                <ol style="list-style-type:upper-alpha;">
                     <li>Start with the gray-bordered cards.</li>
                     <li>No cards are placed in the Forum.</li>
                     <li>Separate and combine the 25 black-text Family cards 
@@ -4027,7 +4079,7 @@
             <div class="col-md-12 pb-2">
                 <p><strong><a id="Rule_3.03.2">3.03.2 CARDS:</a></strong> Set up the Late Republic (red) deck as follows:
                 </p>
-                <ol>
+                <ol style="list-style-type:upper-alpha;">
                     <li>Start with the red-bordered cards. <span class="text-living">Add the Middle 
                         Republic Statesmen cards Marius [27A] and Sulla [1C].</span></li>
                     <li>No cards are placed in the Forum.</li>
@@ -4379,7 +4431,7 @@
                     <li>All Neutrals</li>
                     <li> Largest Player Faction & Faction(s) of his choice</li>
                 </ol>
-                <p>
+                <p class="pl-3">
                     * If Player declines to participate, Coalition adds 2nd 
                     Faction instead.   
                 </p>
@@ -4619,7 +4671,7 @@
                 <p><strong><a id="Rule_4.06.2">4.06.2 REVOLTS:</a></strong> A Neutral Rebel always Marches on Rome. A 
                     Neutral will Revolt only if can fulfill <strong>all</strong> of these conditions:
                 </p>
-                <ol>
+                <ol style="list-style-type:upper-alpha;">
                     <li>Possession of at least 3 Talents in the Rebel Senator’s 
                         Personal/Faction Treasury for each Legion currently 
                         under the prospective Rebel’s command;</li>
@@ -6583,6 +6635,135 @@
 
 
 
+    <!-- Button to Open the Combat Results Modal -->
+<!--
+    <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-CombatResults">
+        Combat Results Table
+    </button>
+-->
+  
+
+    <!-- The Random Events Table Modal -->
+    <div class="modal fade" id="Table-CombatResults">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+      
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Combat Results Table</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th class="text-center">Modified 3d6*</th>
+                            <th>Result</th>
+                            <th>Losses</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">&#60;3</td>
+                                <td>Defeat</td>
+                                <td>All</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">4</td>
+                                <td>Defeat</td>
+                                <td>4 Legions and 4 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">5</td>
+                                <td>Defeat</td>
+                                <td>3 Legions and 3 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">6</td>
+                                <td>Defeat</td>
+                                <td>2 Legions and 2 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">7</td>
+                                <td>Defeat</td>
+                                <td>1 Legion and 1 Fleet</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">8</td>
+                                <td>Stalemate</td>
+                                <td>5 Legions and 5 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">9</td>
+                                <td>Stalemate</td>
+                                <td>4 Legions and 4 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">10</td>
+                                <td>Stalemate</td>
+                                <td>3 Legions and 3 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">11</td>
+                                <td>Stalemate</td>
+                                <td>2 Legions and 2 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">12</td>
+                                <td>Stalemate</td>
+                                <td>1 Legion and 1 Fleet</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">13</td>
+                                <td>Stalemate</td>
+                                <td>No Losses</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">14</td>
+                                <td>Victory</td>
+                                <td>4 Legions and 4 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">15</td>
+                                <td>Victory</td>
+                                <td>3 Legions and 3 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">16</td>
+                                <td>Victory</td>
+                                <td>2 Legions and 2 Fleets</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">17</td>
+                                <td>Victory</td>
+                                <td>1 Legion and 1 Fleet</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">&GreaterEqual;18</td>
+                                <td>Victory</td>
+                                <td>No Losses</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>*Combat Result = Strength Difference + 3d6 roll</div>
+                    <div>Disaster: Half of all Legions and Fleets (round up)</div>
+                    <div>Standoff: Quarter of all Legions and Fleets (round up)</div>
+                    <div>Defeat/Disaster: increase Unrest Level</div>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
     <!-- Button to Open the Random Events Modal -->
 <!--
     <button type="button" class="btn btn-outline-danger btn-sm mb-1" data-toggle="modal" data-target="#Table-XYZ">
@@ -6643,6 +6824,7 @@
             </div>
         </div>
     </div>
+
 
 
 
